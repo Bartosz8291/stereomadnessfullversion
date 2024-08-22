@@ -1,8 +1,9 @@
               - name: Checkout
                 uses: actions/checkout@v4.1.7
+            
 
-
-- uses: actions/checkout@v4
+              - name: Checkout
+              - uses: actions/checkout@v4
   with:
     # Repository name with owner. For example, actions/checkout
     # Default: ${{ github.repository }}
